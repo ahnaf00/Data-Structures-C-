@@ -10,8 +10,8 @@ class Node{
         Node(int val)
         {
             this->val = val;
-            this->prev = prev;
-            this->next = next;
+            this->prev = NULL;
+            this->next = NULL;
         }
 
 };
