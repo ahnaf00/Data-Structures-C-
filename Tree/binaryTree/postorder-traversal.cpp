@@ -43,5 +43,7 @@ int main()
     b->right = e;
 
     postorder(root);
+     
+    return 0;
 
 }

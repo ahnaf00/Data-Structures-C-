@@ -43,5 +43,6 @@ int main()
     b->right = e;
 
     preeorder(root);
-
+    
+    return 0;
 }
