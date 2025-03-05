@@ -22,12 +22,12 @@ void dsu_union(int node1, int node2)
 
     if(grp_size[leader1] >= grp_size[leader2])
     {
-        par[leader2] = node1;
+        par[leader2] = leader1;
         grp_size[leader1] += grp_size[leader2];
     }
     else
     {
-        par[leader1] = node2;
+        par[leader1] = leader2;
         grp_size[leader2] += grp_size[leader1];
     }
 }
